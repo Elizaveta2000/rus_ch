@@ -1,0 +1,63 @@
+/* Обычный */
+@font-face {
+	font-family: 'Nord Thin'; 
+	src: url(/fonts/ofont.ru_Nord.ttf); 
+}
+ h1,h2, h3, p,a{
+  font-family: 'Nord Thin'; 
+ }
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #d62d2d;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #d62d2d;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1em;
+    color: #d62d2d;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  .fon {
+    transform: rotate(-90deg);
+  }
+  
+  .flex-container {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .flex-container {
+    width: 100%;
+    display: flex;
+    align-items: stretch; /* Растягиваем */
+  }
+  .flex-item {
+    margin-left: 1rem; /* Расстояние между блоков */
+    padding: 10px; /* Поля вокруг текста */
+  }
+  .flex-item:first-child {
+    margin-left: 0;
+  }
+  .item1 {
+    background: #f0ba7d;
+    width: 15%;
+  }
+  .item2 {
+    width: 70%;
+  }
+  .item3 {
+    background: #f0ba7d;
+    width: 15%;
+  }

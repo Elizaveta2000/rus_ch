@@ -1,0 +1,15 @@
+.foto {
+    float: left;
+    margin: 4px 10px 2px 0px;
+    border: 1px solid #ccc;
+    padding: 6px;
+  }
+  
+  .what{
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .anketa{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }

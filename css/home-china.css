@@ -1,0 +1,68 @@
+.flex-container {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.about h2 {
+  text-align: center;
+}
+.pclass {
+  text-align: center;
+}
+.doubleone {
+  width: 50%;
+  min-height: 150px;
+  float: left;
+  padding-left: 20px;
+}
+.doubletwo {
+  width: 50%;
+  min-height: 150px;
+  margin-left: 50%;
+}
+.footer-about {
+  clear: left;
+  min-height: 50px;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  align-items: stretch; /* Растягиваем */
+}
+.flex-item {
+  margin-left: 1rem; /* Расстояние между блоков */
+  padding: 10px; /* Поля вокруг текста */
+}
+.flex-item:first-child {
+  margin-left: 0;
+}
+.item1 {
+  background: #f0ba7d;
+  width: 15%;
+}
+.item2 {
+  width: 70%;
+}
+.item3 {
+  background: #f0ba7d;
+  width: 15%;
+}
+.imgab img {
+  display: block;
+  margin: 0 auto;
+}
+
+.imgblock {
+}
+
+.imgblock img {
+  display: block;
+  margin: 0 auto;
+}
+.imgblock span {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+.imgblock span h1 {
+}
